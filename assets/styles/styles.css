@@ -1,0 +1,55 @@
+.first-screen {
+
+}
+
+.first-screen__title {
+
+}
+
+.first-screen__text {
+
+}
+
+.first-screen__browse-menu-button {
+
+}
+
+.statistic-cards {
+
+}
+
+.statistic-card {
+    width: 426px;
+    height: 195px;
+    background-image: url("/assets/images/statistic-card-background.png");
+    display: flex;
+    flex-direction: row;
+}
+
+.statistic-card__text-block {
+    width: 216px;
+    height: 133px;
+    margin: 31px 29px;
+    font-family: Poppins, sans-serif;
+    color: #252525;
+}
+
+.statistic-card__image {
+    width: 152px;
+    height: 195px;
+    border-radius: 80px;
+}
+
+.statistic-card__metric {
+    font-family: inherit;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.statistic-card__text {
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
