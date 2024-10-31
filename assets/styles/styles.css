@@ -44,13 +44,16 @@
     flex-direction: row;
 }
 
+.statistic-cards__statistic-card {
+    margin: 16px;
+}
+
 .statistic-card {
     width: 426px;
     height: 195px;
     background-image: url("/assets/images/statistic-card-background.png");
     display: flex;
     flex-direction: row;
-    margin: 16px;
 }
 
 .statistic-card__text-block {
@@ -72,7 +75,6 @@
     line-height: 36px;
     font-size: 40px;
     font-weight: 600;
-    margin: 0;
 }
 
 .statistic-card__text {
