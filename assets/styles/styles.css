@@ -1,21 +1,47 @@
+.boba-vibe-landing {
+    background-color: #E8D9D6;
+    width: 1440px;
+    height: 1070px;
+    padding: 32px;
+}
+
 .first-screen {
 
 }
 
 .first-screen__title {
-
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    color: #271908;
+    font-size: 112px;
+    line-height: 148px;
 }
 
 .first-screen__text {
-
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #252525;
 }
 
 .first-screen__browse-menu-button {
+    width: 227px;
+    height: 66px;
+    border-radius: 40px;
+    padding: 24px 37px;
+    background-color: #271908;
 
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 18px;
+    color: #ffffff;
 }
 
 .statistic-cards {
-
+    display: flex;
+    flex-direction: row;
 }
 
 .statistic-card {
@@ -24,6 +50,7 @@
     background-image: url("/assets/images/statistic-card-background.png");
     display: flex;
     flex-direction: row;
+    margin: 16px;
 }
 
 .statistic-card__text-block {
@@ -42,7 +69,8 @@
 
 .statistic-card__metric {
     font-family: inherit;
-    font-size: 36px;
+    line-height: 36px;
+    font-size: 40px;
     font-weight: 600;
     margin: 0;
 }
@@ -50,6 +78,7 @@
 .statistic-card__text {
     font-family: inherit;
     font-size: 18px;
+    line-height: 27px;
     font-weight: 400;
-    margin: 0;
+    margin-top: 16px;
 }
