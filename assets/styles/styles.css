@@ -19,7 +19,6 @@
 .image-area {
     display: flex;
     flex-direction: row;
-    position: relative;
 }
 
 .first-screen__image_area {
