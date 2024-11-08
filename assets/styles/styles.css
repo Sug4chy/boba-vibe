@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .boba-vibe-landing {
     background-color: #E8D9D6;
     width: 1440px;
@@ -16,59 +22,20 @@
     flex-direction: row;
 }
 
-.image-area {
+.first-screen__image_area {
     display: flex;
     flex-direction: row;
-}
-
-.first-screen__image_area {
     position: relative;
     top: 0;
-    right: -4px;
 }
 
-.image-area__left-wing {
-    z-index: 1;
-    width: 316px;
-    height: 317px;
-    position: absolute;
-    bottom: 180px;
-    left: 100px;
-}
-
-.image-area__right-wing {
-    z-index: 1;
-    width: 316px;
-    height: 317px;
-    position: absolute;
-    bottom: 180px;
-    right: 75px;
-}
-
-.image-area__bubble-tea-image {
-    z-index: 2;
-    position: absolute;
-    top: 37px;
-    right: 160px;
-}
-
-.image-area__leaf-image {
-    z-index: 3;
-    position: absolute;
-    top: 310px;
-    right: 288px;
-}
-
-.content-area {
+.first-screen__content-area {
+    margin-top: 45px;
     width: 574px;
     height: 333px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-}
-
-.first-screen__content-area {
-    margin-top: 45px;
 }
 
 .first-screen__tea-illustration {
@@ -79,14 +46,14 @@
     margin-bottom: -63px;
 }
 
-.first-screen__title {
+.title {
     font-weight: 700;
     color: #271908;
     font-size: 112px;
     line-height: 148px;
 }
 
-.first-screen__text {
+.text {
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
@@ -102,7 +69,7 @@
 
     font-weight: 400;
     line-height: 18px;
-    font-size: 18px;
+    font-size: 22px;
     color: #ffffff;
 
     margin-top: 32px;
@@ -118,7 +85,7 @@
 .statistic-card {
     width: 426px;
     height: 195px;
-    background-image: url("/assets/images/statistic-card-background.png");
+    background-image: url("../images/statistic-card-background.png");
     display: flex;
     flex-direction: row;
 }
